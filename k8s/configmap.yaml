@@ -1,0 +1,11 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: fastapi-app
+data:
+  PROJECT_NAME: "Full Stack FastAPI Project"
+  FIRST_SUPERUSER: "admin@example.com"
+  SMTP_HOST: "localhost"
+  EMAILS_FROM_EMAIL: "info@example.com"
